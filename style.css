@@ -1,0 +1,41 @@
+#clock{
+    border: 2px solid red;
+    width: 40vw;
+    height: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hourHand, #minuteHand, #secondHand {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hourHand {
+    height: 8vw;
+    width: 1vw;
+    margin-left: 19.7vw;
+    margin-top: 12vw;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+
+#minuteHand {
+    height: 14vw;
+    width: 0.8vw;
+    margin-left: 19.8vw;
+    margin-top: 7vw;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+
+#secondHand {
+    height: 18vw;
+    width: 0.5vw;
+    margin-left: 19.9vw;
+    margin-top: 5vw;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
